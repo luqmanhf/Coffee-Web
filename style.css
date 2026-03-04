@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(241, 241, 241);
+}
+
+.foto {
+    position: center;
+    border: 2px solid black;
+    border-radius: 5px;
+}
