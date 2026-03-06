@@ -3,14 +3,29 @@ body {
     background-color: rgb(241, 241, 241);
 }
 
-.teks {
-    font-family:'Arial, Helvetica, sans-serif';
-    font-size:'medium';
+html {
+    scroll-behavior: smooth;
 }
 
+.kopi{
+    text-align: center;
+}
+
+.teks {
+    font-size: 12px;
+}
+
+
 .foto {
-    position: center;
-    border: 2px solid black;
-    border-right-style: 20px;
+    margin: auto;
+    border: 3px solid black;
+    border-width: 2px;
     border-radius: 10px;
+    width: 8cm;
+}
+
+.foto img {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
 }
