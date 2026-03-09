@@ -7,6 +7,19 @@ html {
     scroll-behavior: smooth;
 }
 
+.container{
+    display: grid;
+    width: 7cm;
+    gap: 20px;
+}
+
+.box {
+    border: 2px solid black;
+    border-radius: 12px;
+    border-color: red;
+    padding: 17px;
+}
+
 .kopi{
     text-align: center;
 }
